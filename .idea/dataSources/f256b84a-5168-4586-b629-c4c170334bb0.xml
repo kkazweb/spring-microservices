@@ -8882,11 +8882,13 @@
     </sequence>
     <table id="1994" parent="1984" name="licenses">
       <ObjectId>3422870</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>edonvsnzehngjo</Owner>
       <StateNumber>9528619</StateNumber>
     </table>
     <table id="1995" parent="1984" name="organization">
       <ObjectId>3422888</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>edonvsnzehngjo</Owner>
       <StateNumber>9529228</StateNumber>
     </table>

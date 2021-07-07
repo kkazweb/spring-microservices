@@ -9,12 +9,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="zuul" />
         <module name="config-server" />
+        <module name="microservices" />
+        <module name="licensing-service" />
+        <module name="eureka" />
         <module name="organization-service" />
         <module name="spring-cloud-microservices" />
-        <module name="eureka" />
-        <module name="licensing-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="loadbalancer" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
