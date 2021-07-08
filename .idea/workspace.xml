@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bf4c1bb-65ca-4fdc-a73e-ec086dfd4bb6" name="Default Changelist" comment="" />
+    <list default="true" id="6bf4c1bb-65ca-4fdc-a73e-ec086dfd4bb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +75,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -89,22 +98,39 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/organization-service/src/main/java/com/kkazmierczak/organizationservice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/authentication-service/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\microservices\authentication-service\src\main\resources" />
+      <recent name="C:\microservices\authentication-service\src\main\java\com\kkazmierczak\authenticationservice" />
+      <recent name="C:\microservices\organization-service\src\main\java\com\kkazmierczak\organizationservice" />
+      <recent name="C:\microservices\organization-service\src\main\resources" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.kkazmierczak.licensingservice.utils" />
       <recent name="com.kkazmierczak.zuul.filters" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\microservices\organization-service\src\main\java\com\kkazmierczak\organizationservice" />
-      <recent name="C:\microservices\organization-service\src\main\resources" />
-    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrganizationServiceApplication">
+  <component name="RunManager" selected="Spring Boot.AuthenticationServiceApplication">
+    <configuration name="AuthenticationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="authentication-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kkazmierczak.authenticationserver.AuthenticationServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthenticationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="authentication-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kkazmierczak.authenticationservice.AuthenticationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kkazmierczak.configserver.ConfigServerApplication" />
@@ -156,6 +182,8 @@
       <item itemvalue="Spring Boot.OrganizationServiceApplication" />
       <item itemvalue="Spring Boot.ZuulApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.AuthenticationServiceApplication" />
+      <item itemvalue="Spring Boot.AuthenticationServerApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -170,6 +198,7 @@
       <updated>1625475264391</updated>
       <workItem from="1625475265912" duration="117000" />
       <workItem from="1625475633493" duration="17179000" />
+      <workItem from="1625745976092" duration="6687000" />
     </task>
     <servers />
   </component>
@@ -185,58 +214,58 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1625514389112" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1625695435289">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1625752373503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1625695435289" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1625752373503" />
     <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1625477941255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1625477941255" />
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1625696580758">
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1625755008998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625696580758" />
-    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1625696580758">
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625755008998" />
+    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1625755008998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625696580758" />
-    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1625696580758">
+    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625755008998" />
+    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1625755008998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625696580758" />
-    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1625696580758">
+    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625755008998" />
+    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1625755008998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625696580758" />
-    <state width="1323" height="220" key="GridCell.Tab.1.bottom" timestamp="1625696580758">
+    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625755008998" />
+    <state width="1323" height="220" key="GridCell.Tab.1.bottom" timestamp="1625755008999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625696580758" />
-    <state width="1323" height="220" key="GridCell.Tab.1.center" timestamp="1625696580758">
+    <state width="1323" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625755008999" />
+    <state width="1323" height="220" key="GridCell.Tab.1.center" timestamp="1625755008999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625696580758" />
-    <state width="1323" height="220" key="GridCell.Tab.1.left" timestamp="1625696580758">
+    <state width="1323" height="220" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625755008999" />
+    <state width="1323" height="220" key="GridCell.Tab.1.left" timestamp="1625755008999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625696580758" />
-    <state width="1323" height="220" key="GridCell.Tab.1.right" timestamp="1625696580758">
+    <state width="1323" height="220" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625755008999" />
+    <state width="1323" height="220" key="GridCell.Tab.1.right" timestamp="1625755008999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625696580758" />
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1625514689067">
+    <state width="1323" height="220" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625755008999" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1625748859713">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1625514689067" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1625748859713" />
     <state x="579" y="254" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1625514430809">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="579" y="254" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1625514430809" />
-    <state x="65" y="0" key="new project wizard" timestamp="1625483105785">
+    <state x="65" y="0" key="new project wizard" timestamp="1625754780418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1625483105785" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1625754780418" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1625514917795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
