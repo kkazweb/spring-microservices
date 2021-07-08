@@ -1,6 +1,7 @@
 package com.kkazmierczak.licensingservice.services;
 
 import com.kkazmierczak.licensingservice.clients.OrganizationFeignClient;
+import com.kkazmierczak.licensingservice.clients.OrganizationRestTemplateClient;
 import com.kkazmierczak.licensingservice.model.dto.Organization;
 import com.kkazmierczak.licensingservice.model.entity.License;
 import com.kkazmierczak.licensingservice.repository.LicenseRepository;
@@ -19,9 +20,12 @@ public class LicenseService {
     @Autowired
     OrganizationFeignClient organizationFeignClient;
 
+    @Autowired
+    OrganizationRestTemplateClient organizationRestClient;
+
     private Organization retrieveOrgInfo(String organizationId) {
         Organization organization = null;
-        organization = organizationFeignClient.getOrganization(organizationId);
+        organization = organizationRestClient.getOrganization(organizationId);
 
         return organization;
     }
