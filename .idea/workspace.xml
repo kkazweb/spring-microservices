@@ -3,17 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6bf4c1bb-65ca-4fdc-a73e-ec086dfd4bb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licensing-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/licensing-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licensing-service/src/main/java/com/kkazmierczak/licensingservice/LicensingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/licensing-service/src/main/java/com/kkazmierczak/licensingservice/LicensingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licensing-service/src/main/java/com/kkazmierczak/licensingservice/controller/LicensingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/licensing-service/src/main/java/com/kkazmierczak/licensingservice/controller/LicensingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licensing-service/src/main/java/com/kkazmierczak/licensingservice/services/LicenseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/licensing-service/src/main/java/com/kkazmierczak/licensingservice/services/LicenseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licensing-service/src/main/java/com/kkazmierczak/licensingservice/utils/UserContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/licensing-service/src/main/java/com/kkazmierczak/licensingservice/utils/UserContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licensing-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/licensing-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organization-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organization-service/src/main/java/com/kkazmierczak/organizationservice/OrganizationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/kkazmierczak/organizationservice/OrganizationServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organization-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/kkazmierczak/authenticationservice/security/OAuth2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/kkazmierczak/authenticationservice/security/OAuth2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/kkazmierczak/authenticationservice/security/WebSecurityConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/kkazmierczak/authenticationservice/security/WebSecurityConfigurer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,21 +104,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kkazmierczak.licensingservice.utils" />
+      <recent name="com.kkazmierczak.zuul.filters" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kkazmierczak.licensingservice.security" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\microservices\authentication-service\src\main\resources" />
       <recent name="C:\microservices\authentication-service\src\main\java\com\kkazmierczak\authenticationservice" />
       <recent name="C:\microservices\organization-service\src\main\java\com\kkazmierczak\organizationservice" />
       <recent name="C:\microservices\organization-service\src\main\resources" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.kkazmierczak.licensingservice.security" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.kkazmierczak.licensingservice.utils" />
-      <recent name="com.kkazmierczak.zuul.filters" />
-    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulApplication">
+  <component name="RunManager" selected="Spring Boot.OrganizationServiceApplication">
     <configuration name="AuthenticationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="authentication-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kkazmierczak.authenticationservice.AuthenticationServiceApplication" />
@@ -216,46 +208,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1625755270048" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1625767790890">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1625774865733">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1625767790890" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1625774865733" />
     <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1625477941255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1625477941255" />
-    <state width="1323" height="257" key="GridCell.Tab.0.bottom" timestamp="1625773614413">
+    <state width="1323" height="257" key="GridCell.Tab.0.bottom" timestamp="1625776363920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625773614413" />
-    <state width="1323" height="257" key="GridCell.Tab.0.center" timestamp="1625773614413">
+    <state width="1323" height="257" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625776363920" />
+    <state width="1323" height="257" key="GridCell.Tab.0.center" timestamp="1625776363920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625773614413" />
-    <state width="1323" height="257" key="GridCell.Tab.0.left" timestamp="1625773614413">
+    <state width="1323" height="257" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625776363920" />
+    <state width="1323" height="257" key="GridCell.Tab.0.left" timestamp="1625776363920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625773614413" />
-    <state width="1323" height="257" key="GridCell.Tab.0.right" timestamp="1625773614413">
+    <state width="1323" height="257" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625776363920" />
+    <state width="1323" height="257" key="GridCell.Tab.0.right" timestamp="1625776363920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625773614413" />
-    <state width="1323" height="257" key="GridCell.Tab.1.bottom" timestamp="1625773614414">
+    <state width="1323" height="257" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625776363920" />
+    <state width="1323" height="257" key="GridCell.Tab.1.bottom" timestamp="1625776363920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625773614414" />
-    <state width="1323" height="257" key="GridCell.Tab.1.center" timestamp="1625773614414">
+    <state width="1323" height="257" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625776363920" />
+    <state width="1323" height="257" key="GridCell.Tab.1.center" timestamp="1625776363920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625773614414" />
-    <state width="1323" height="257" key="GridCell.Tab.1.left" timestamp="1625773614413">
+    <state width="1323" height="257" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625776363920" />
+    <state width="1323" height="257" key="GridCell.Tab.1.left" timestamp="1625776363920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625773614413" />
-    <state width="1323" height="257" key="GridCell.Tab.1.right" timestamp="1625773614414">
+    <state width="1323" height="257" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625776363920" />
+    <state width="1323" height="257" key="GridCell.Tab.1.right" timestamp="1625776363920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625773614414" />
+    <state width="1323" height="257" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625776363920" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1625748859713">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -268,9 +260,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1625754780418" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1625514917795">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1625775565372">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1625514917795" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1625775565372" />
   </component>
 </project>
